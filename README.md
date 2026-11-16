@@ -52,7 +52,8 @@ The Instruction Memory (`imem.v`) is hardcoded with a 150-instruction polling fi
 * **Part D:** Tests Window limits (Ch3) and verifies `irq` pin rises and clears.
 * **Part F:** Tests FIFO popping with back-to-back reads.
 * **Part E:** Generates a 30% duty cycle PWM and executes `HLT`.
-  ## 📈 Results & Implementation
+  
+##  Results & Implementation
 
 ### Verification Results
 - **`tb_risc8_soc`**: 22/22 checks PASSED (638 cycles, 121 I/O accesses).
